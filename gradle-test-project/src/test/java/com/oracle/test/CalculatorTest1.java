@@ -31,7 +31,7 @@ public class CalculatorTest1 {
 	 @Test
 	   public void testMul2() {
 		 
-		 org.junit.Assert.assertTrue("Success", cal.mul(2,3,10)==600);
+		 org.junit.Assert.assertTrue("Success", cal.mul(2,3,10)==60);
 		 
 	  }
 }
