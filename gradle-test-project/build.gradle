@@ -38,7 +38,7 @@ clean {
 test {
 
     useJUnit()
-    dependsOn 'test'
+    dependsOn 'clean'
 
     maxHeapSize = '1G'
 }
