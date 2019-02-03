@@ -26,13 +26,6 @@ public class Calculator {
 	    } 
 	  
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
-		Calculator a=new Calculator();
-		System.out.println(a.add(2,3,4,5));
-		System.out.println(a.mul(2,3,4,5));
-
-	}
+	
 
 }

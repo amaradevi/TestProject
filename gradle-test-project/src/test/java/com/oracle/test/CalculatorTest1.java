@@ -2,9 +2,9 @@ package com.oracle.test;
 
 
 
+import com.oracle.test1.Calculator;
 import org.junit.Test;
 
-import com.oracle.test1.Calculator;
 
 public class CalculatorTest1 {
 //this is calculator test
