@@ -47,7 +47,7 @@ test {
 
 
 jar {
-
+	dependsOn 'clean'
     dependsOn 'test'
     
     manifest {

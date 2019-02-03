@@ -8,7 +8,7 @@ import com.oracle.test1.Calculator;
 import com.oracle.test1.HelloGradle;
 
 public class CalculatorTest1 {
-
+//this is calculator test
 	Calculator cal=new Calculator();
 	 @Test
 	   public void testAddition() {

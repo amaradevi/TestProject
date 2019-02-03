@@ -2,7 +2,7 @@ package com.oracle.test1;
 
 public class Calculator {
 	
-	
+	//this is calculator test
 	  public int add(int ...a) 
 	    { 
 	       
