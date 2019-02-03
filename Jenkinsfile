@@ -5,14 +5,14 @@ pipeline {
         stage('Build') {
             steps {
                 echo 'Building..'
-                bat 'cd gradle-test-project'
-                bat 'gradlew --info clean jar'
+                sh 'cd gradle-test-project'
+                sh 'gradlew --info clean jar'
             }
         }
         stage('Testing') {
             steps {
                 echo 'Testing..'
-                bat 'gradlew --info clean test'
+                sh 'gradlew --info clean test'
             }
         }
         stage('Deploy') {
