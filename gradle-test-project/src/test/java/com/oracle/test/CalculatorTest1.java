@@ -1,11 +1,10 @@
 package com.oracle.test;
 
-import static org.junit.Assert.assertNotNull;
+
 
 import org.junit.Test;
 
 import com.oracle.test1.Calculator;
-import com.oracle.test1.HelloGradle;
 
 public class CalculatorTest1 {
 //this is calculator test
